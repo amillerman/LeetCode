@@ -1,1 +1,17 @@
-var isUgly=function(r){if(r<1)return!1;let e=0;do for(e+=2==e?1:2;r%e==0;)r/=e;while(e<7&&r>1);return e<7};
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var isUgly = function(n) {
+    if (n < 1) return false;
+    let prime = 0;
+    do{
+        prime += prime == 2 ? 1 : 2;
+        while (n%prime == 0)
+        {
+            n /= prime;
+        }
+    }while(prime < 7 && n > 1);
+    return prime < 7;
+
+};
