@@ -1,5 +1,4 @@
-<h2><a href="https://leetcode.com/problems/ugly-number/">263. Ugly Number</a></h2><h3>Easy</h3><hr><div>
-<div class="content__u3I1 question-content__JfgR"><div><p>An <strong>ugly number</strong> is a positive integer whose prime factors are limited to <code>2</code>, <code>3</code>, and <code>5</code>.</p>
+<h2><a href="https://leetcode.com/problems/ugly-number/">263. Ugly Number</a></h2><h3>Easy</h3><hr><div><p>An <strong>ugly number</strong> is a positive integer whose prime factors are limited to <code>2</code>, <code>3</code>, and <code>5</code>.</p>
 
 <p>Given an integer <code>n</code>, return <code>true</code> <em>if</em> <code>n</code> <em>is an <strong>ugly number</strong></em>.</p>
 
@@ -31,4 +30,4 @@
 <ul>
 	<li><code>-2<sup>31</sup> &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
-</div></div>
+</div>
